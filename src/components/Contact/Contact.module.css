@@ -1,0 +1,20 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.label {
+  margin: 0;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  border: 1px solid black;
+}
