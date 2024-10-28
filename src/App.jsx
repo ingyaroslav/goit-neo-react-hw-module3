@@ -45,7 +45,9 @@ function App() {
       <h1>Phonebook</h1>
       <ContactForm handleSubmit = {handleSubmit}/>
       <SearchBox handleSearchChange = {handleSearchChange} searchValue={searchValue}/>
-      {contacts.length > 0 && <ContactList contactList={filteredContacts} handleDelete={handleDelete} />}
+      {contacts.length > 0 && (
+        <ContactList contacts={filteredContacts} handleDelete={handleDelete} />
+      )}
     </div>)
 }
 
